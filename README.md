@@ -25,6 +25,9 @@ THEN I find a concise, descriptive title
 ```
 > End: © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
 
+## Links 
+* View [Horisen's Web Pag](https://matt-gross-27.github.io/01-challenge/)
+* View [Git Repository](https://github.com/matt-gross-27/01-challenge)
 
 ## Changes Made to Horisen Code
 
@@ -51,3 +54,5 @@ THEN I find a concise, descriptive title
   * for .benefit elements
 * reordered code to follow html flow and group like sections
 * added comments to search stylesheet more easily
+
+[Horisen web page screenshot](assets/images/screen-shot-horisen-web-page.png)
