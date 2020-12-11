@@ -1,14 +1,6 @@
-# 01 HTML CSS Git: Code Refactor
+# Horisen Code Refactor
 
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it to either meet a certain set of standards or implement a new technology. Web accessibility is an increasingly important consideration for businesses, ensuring that people with disabilities or socio-economic restrictions have access to their website, and helping them avoid litigation.
-
-Your task is to refactor an existing webpage to make it accessible. An important rule to follow when working with someone else's code is the Scout Rule:
-
-> Always leave the code you are editing a little cleaner than you found it.
-
-To impress clients, you should always go the extra mile and improve their codebase for long term sustainability. Ensure that all links are functioning correctly and clean up the CSS to make it more efficient, consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
-
-## User Story
+## Horisen Ask
 
 ```
 AS A marketing agency
@@ -30,15 +22,32 @@ WHEN I view the heading attributes
 THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
+
+© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
 ```
 
-## Review
+## Changes Made to Horisen Code
 
-You are required to submit the following for review:
+### HTML
+* title element changed from "website" to "Horisen"
+* relevant div/span elements changed to semantic elements in order of appearance
+  * header (header)
+  * strong (seo in Horisen)
+  * nav (nav links)
+  * section (the services content)
+  * article (each service listed)
+  * aside (benefits side bar)
+  * footer (footer)
+  * small (copyright)
+* alt attributes added to images with descriptions where relevant
+* 'search-engine-optimization' nav link fixed by adding id to linked content
+* shared class attribute added to service articles
+* shared class attribute added to benefit divs
+* .benefit h3s changed to h2s
 
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+### CSS
+* eliminated redundant code by references new logical classes
+  * for .service elements
+  * for .benefit elements
+* reordered code to follow html flow and group like sections
+* added comments to search stylesheet more easily
