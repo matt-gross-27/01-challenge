@@ -2,6 +2,7 @@
 
 ## Horisen Ask
 
+> Start: © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
 ```
 AS A marketing agency
 I WANT a codebase that follows accessibility standards
@@ -9,7 +10,6 @@ SO THAT our own site is optimized for search engines
 ```
 
 ## Acceptance Criteria
-
 ```
 GIVEN a webpage meets accessibility standards
 WHEN I view the source code
@@ -22,9 +22,9 @@ WHEN I view the heading attributes
 THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
-
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
 ```
+> End: © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
 
 ## Changes Made to Horisen Code
 
